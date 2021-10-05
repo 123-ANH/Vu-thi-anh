@@ -1,0 +1,340 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap');
+body{
+	font-family: 'Darker Grotesque', sans-serif;
+	font-size: 18px;
+	color: #4E4E4E;
+}
+h1,h2{
+	font-family: 'Charm', cursive;
+}
+nav ul li a{
+	font-size: 20px;
+}
+.dropdown-item{
+	color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+footer{
+	background: url("../img/Rectangle 15.png") no-repeat center top;
+	background-size: cover;
+	min-height: 650px;
+	color: #fff;
+	padding: 100px 0 20px 0;
+}
+footer p{
+	margin: 0;
+	padding: 0;
+}
+footer h3{
+	font-size: 24px;
+	text-transform: uppercase;
+}
+aside h3{
+	margin: 0;
+	padding: 0;
+	color: #58732E;
+	font-weight: 600;
+}
+aside .nav-link{
+	color: #333;
+	font-size: 20px;
+	border-bottom: 1px solid #ddd;
+}
+aside .nav-link:hover{
+	background: #58732E;
+	color: #fff;
+}
+a:hover{
+	text-decoration: none;
+}
+section a{
+	color: #3F3F3F;
+}
+section a:hover{
+	color:#57732E;
+	text-decoration: none;
+}
+#recent-article .row:hover{
+	background-color: #fff;
+}
+section a img:hover{
+	opacity: 70%;
+}
+.blogtext{
+	font-family: 'Charm', cursive;
+	width: 75%;
+}
+.page-title{
+	background: url("../img/cleaning-your-fruits-and-vegetables-naturally-featured-i.jpeg")no-repeat center top;
+	background-size: cover;
+	font-size: 24px;
+	padding: 20px 0;
+}
+.gioithieu{
+	background: url("../img/gioithieu/banner1.jpeg") no-repeat;
+	background-size: cover;
+}
+.raucu{
+	background: url("../img/raucu/banner1.jpeg")no-repeat;
+	background-size: cover;
+}
+.huongdan{
+	background: url("../img/gioithieu/Group 41.jpeg")no-repeat;
+	background-size: cover;
+}
+.lienhe{
+	background: url("../img/gioithieu/lienhe.jpeg")no-repeat;
+	background-size: cover;
+}
+.giohang{
+	background: url("../img/giohang/3.jpeg")no-repeat;
+	background-size: cover;
+}
+.thanhtoan{
+	background: url("../img/giohang/4.jpeg")no-repeat;
+	background-size: cover;
+}
+.search{
+	border: 1px solid #494949;
+	width: 80%;
+	line-height: 30px;
+	margin: auto;
+	border-radius: 10px;
+}
+.bg-none{
+	background: none;
+	border: none;
+}
+.radius-20{
+	border-radius: 20px;
+}
+.page ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.page ul li{
+	padding-left: 10px;
+	text-align: center;
+}
+.page ul li a{
+	line-height: 30px;
+	padding: 0 10px;
+	text-decoration: none;
+	color: #5c7139;
+	border: 1px solid #5c7139;
+	display: inline-block;
+	font-size: 16px;
+	background:#EDEDED;
+}
+.page ul li a:hover{
+	color: #fff;
+	background: #5c7139;
+}
+.fix{
+	position: fixed;
+}
+.banner{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	background-size: cover;
+	position: center;
+}
+
+.banner1{
+	width: 100%;
+	padding: 200px 0;
+	text-align: center;
+	background: url("../img/blog/baiso1.jpeg") no-repeat ;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.banner2{
+	background: url("../img/blog/baiso2.jpeg") no-repeat;
+	background-attachment: fixed;
+}
+.banner3{
+	background: url("../img/blog/baiso3.jpeg") no-repeat;
+	background-attachment: fixed;
+}
+.banner4{
+	background: url( "../img/blog/baiso4.jpeg") no-repeat;
+	background-attachment: fixed;
+}
+.banner5{
+	background: url("../img/blog/baiso5.jpeg") no-repeat;
+	background-attachment: fixed;
+}
+.banner6{
+	background: url("../img/blog/baiso6.jpeg") no-repeat;
+	background-attachment: fixed;
+}
+.text-day{
+	color: #fff;
+	letter-spacing: 5px;
+	border-top: 1px solid #fff;
+	padding: 0 20px;
+}
+/*-----------------------------------style cho banner cho carousel*/
+#banner .carousel-caption{
+	position: absolute;
+	top: 20%;
+	text-align: left;
+	width: 40%;
+	left: 35%;
+	font-size: 24px;
+}
+#banner .carousel-caption h1{
+	font-size: 4rem;
+}
+#banner .carousel-caption .btn{
+	font-size: 24px;
+}
+@media(max-width:1200px){
+	#banner .carousel-caption{
+	position: absolute;
+	top: 7%;
+	text-align: left;
+	width: 60%;
+	left: 30%;
+	font-size: 24px;
+}
+}
+@media(max-width:997px){
+	#banner .carousel-caption{
+	position: absolute;
+	top: 0%;
+	text-align: left;
+	width: 70%;
+	left: 15%;
+	font-size: 20px;
+	text-align:center;
+}
+	#banner .carousel-caption h1{
+	font-size: 3rem;
+	font-family: 'Charm', cursive;
+}
+	#banner .carousel-caption .btn{
+	font-size: 18px;
+}
+}
+@media(max-width:500px){
+	#banner .carousel-caption{
+	font-size: 14px;
+	line-height: 15px;
+	}
+	#banner .carousel-caption h1{
+	font-size: 1.5rem;
+	font-family: 'Charm', cursive;
+}
+	#banner .carousel-caption .btn{
+	display: none;
+}
+	#banner .carousel-indicators{
+	bottom: -20px;
+	}
+	.text-box{
+		text-align: center;
+	}
+}
+.bg-box{
+	background: #58732F;
+	width: 80%;
+	padding: 20px 0;
+	border-radius: 15px;
+	border: 2px solid #fff;
+	position: relative;
+	left: 10%;
+	top: -10%;
+}
+.box-icon{
+	height: 180px;
+	width: 180px;
+	text-align: center;
+}
+.text-box{
+	padding: 20px 0;
+}
+#bg-gioithieu{
+	background: url("../img/gioithieu/banner7.jpeg")no-repeat center;
+	background-size: cover;
+	padding: 100px 0;
+}
+.bg-primary-70{
+	background: #58732F;
+	opacity: 70%;
+}
+.bg-primary-70:hover{
+	border: 1px solid #fff;
+}
+.w-90{
+	width: 90%;
+}
+#raucu a:hover{
+	background: #58732F;
+	color: #fff;
+}
+#raucu .active{
+	background: #58732F;
+	color: #fff;
+}
+.bg-dark-50{
+	background: rgba(0,0,0,0.5)
+}
+.hover-giohang{
+	visibility: hidden
+}
+.giohang:hover .hover-giohang{
+	visibility: visible;
+}
+#pages .active{
+	background: #58732F;
+	color: #fff;
+}
+#faqs li .mega-box{
+	width: 100%;
+	display: flex;
+	left: -50px;
+	top: 50px;
+	border: none;
+	visibility: hidden;
+}
+#faqs ul:active li .mega-box{
+	visibility: visible;
+}
+.text-setup p{
+	font-size: 23px; padding: 0; margin: 0;text-decoration: none;font-weight: 400;
+}
+.box-hvuong{
+	width: 30px;
+	height: 30px;
+	background: #58732F;
+	border-radius: 5px;
+}
+.table-round{
+	border-collapse:separate;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
