@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Organic Food</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="../css/main-style.css">
+<link rel="stylesheet" href="../css/all.css">
+<link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+	<div class="container-fluid text-center mt-2">
+	<a href="../website/index.html"><img src="../img/logo.png" alt="logo"></a></div>
+	<nav class="navbar navbar-expand-lg bg-primary navbar-dark my-3">
+		<div class="container align-content-between">
+		<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu"><i class="navbar-toggler-icon"></i></button>
+		<div class="navbar-collapse collapse" id="menu">
+			<ul class="navbar-nav mx-auto">
+				<li class="nav-item "><a href="../website/index.html" class="nav-link px-4">Home</a></li>
+				<li class="nav-item"><a href="../website/gioithieu.html" class="nav-link px-4">Giới thiệu</a></li>
+				<li class="nav-item dropdown"><a href="../website/sanpham.html" class="nav-link dropdown-toggle px-4" data-toggle="dropdown">Sản phẩm</a>
+					<div class="dropdown-menu bg-primary">
+						<a href="../website/raucu.html" class="dropdown-item px-4">Rau củ</a>
+						<a href="../website/traicay.html" class="dropdown-item px-4">Trái cây</a>
+						<a href="../website/cacloaihat.html" class="dropdown-item px-4">Các loại hạt</a>
+					</div>
+				</li>
+				<li class="nav-item"><a href="../website/blog.html" class="nav-link px-4">Blog</a></li>
+				<li class="nav-item"><a href="../website/huongdanmuahang.html" class="nav-link px-4">Hướng dẫn mua hàng</a></li>
+				<li class="nav-item"><a href="../website/lienhe.html" class="nav-link px-4">Liên hệ</a></li>
+			</ul>
+			<div class="navbar-text text-white">
+				<a href="../website/giohang.html"><i class="fas fa-shopping-cart fa-x1 pr-4"></i></a>
+				<a href="#"><i class="fas fa-search fa-1x"></i></a>
+			</div>
+		</div>
+		</div>
+	</nav>
+	<div class="container">
+	<div class="row">
+		<main class="col-md-8"></main>
+		<aside class="col-md-4"></aside>
+		</div>
+	</div>
+	
+	
+	<!-- TemplateBeginEditable name="noidung" -->
+	<main></main>
+	<!-- TemplateEndEditable -->
+	
+	
+	<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 pb-4">
+			<h3><b>SAIGON ORGANIC FOOD</b></h3>
+			<p>Organic Food farm cam kết chất lượng an toàn vệ sinh thực phẩm và khẳng định như vậy. Điều đó khẳng định sự tồn tại của chúng tôi. “Uy Tín” được Organic Food đặt lên hàng đầu, hợp tác, chia sẻ, tin cậy, … gắn bó lâu dài.</p>
+			</div>
+			<div class="col-md-4 pb-4">
+				<h3><b>ĐỊA CHỈ</b></h3>
+				<p>
+					19/12K, Ấp Thới Tứ, Xã Thới Tam Thôn, Huyện Hóc Môn</p>
+				<p><b>Phone:</b> 0865 222 9868</p>
+<p><b>Open Time:</b> <br>
+<span class="ml-4">Thú 2-6 : 8:00- 20:00</span> <br>
+<span class="ml-4">Thứ 7-CN : 10:00-16:00</span>
+</p>
+			</div>
+			<div class="col-md-4 pb-4">
+				<h3><b>Chi nhánh</b></h3>
+				<p>
+
+<b>Chi nhánh phân phối Hà Nội:</b> <br>
+Cơ sở 1: 19/12K, Ấp Thới Tứ, Xã Thới Tam Thôn, Huyện Hóc Môn <br>
+<b>Chi nhánh phân phối Tp Hồ Chí Minh: </b><br>
+Địa chỉ: A11, Ngõ 100, Đường Trung Kính, Phường Yên Hòa, Quận Cầu Giấy
+</p>
+			</div>
+		</div>
+		<div>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.9324282471466!2d106.60494591480175!3d10.892739992242637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d5ed6734f179%3A0x79f5b696c5bc95a!2z4bqkcCBUaOG7m2kgVOG7qSAxLCBUaOG7m2kgVGFtIFRow7RuLCBIw7NjIE3DtG4sIEhvIENoaSBNaW5oIENpdHk!5e0!3m2!1sen!2s!4v1629114535109!5m2!1sen!2s" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+		<div class="text-center">Copyright © 2016 hvthuyvu.vn</div>
+		</div>
+	</footer>
+	<script src="../js/jquery-3.6.0.min.js"></script>
+	<script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
